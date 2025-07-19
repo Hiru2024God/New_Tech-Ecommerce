@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>New Tech | SignUp | SignIn</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/New tech rashi.png" />
+</head>
+
+<body class="main-body sin1">
+
+    <video class="video" autoplay="" loop="" muted="">     
+        <source src="e-commerce video.mp4"/>
+    </video>
+
+
+    <div class="container-fluid vh-100 d-flex justify-content-center">
+        <div class="row align-content-center">
+
+            <!-- header -->
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 logo"></div>
+                    <div class="col-12">
+                        <p class="title01" style="margin-left: 600px;">WELCOME TO NEW TECH ELECTRONIC SHOP</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="col-12 p-3">
+                <div class="row">
+                    <div class="col-6 d-none d-lg-block background"></div>
+
+                    <!-- signUp -->
+                    <div class="col-12 col-lg-6 d-none" id="signUpBox">
+                        <div class="row g-2">
+                            <div class="col-12">
+                                <p class="title02">Create New Account</p>
+                            </div>
+
+                            <div class="col-6 sbox1">
+                                <label class="form-label">First Name</label>
+                                <input type="text" class="form-control" placeholder="Ex: Rashi" />
+                            </div>
+                            <div class="col-6 sbox1">
+                                <label class="form-label">Last Name</label>
+                                <input type="text" class="form-control" placeholder="Ex: Nimsharani" />
+                            </div>
+                            <div class="col-12 sbox1">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="Ex: Rashi@gmail.com" />
+                            </div>
+                            <div class="col-12 sbox1">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" />
+                            </div>
+                            <div class="col-6 sbox1">
+                                <label class="form-label">Mobile</label>
+                                <input type="text" class="form-control" placeholder="Ex: 0775647210" />
+                            </div>
+
+                            <div class="col-6">
+                                <label class="form-label">Gender</label>
+                                <select class="form-select" id="gender">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-lg-6 d-grid">
+                                <button class="btn btn-primary">Sign Up</button>
+                            </div>
+
+                            <div class="col-12 col-lg-6 d-grid">
+                                <button class="btn btn-dark" onclick="changeView();">
+                                    Sign In
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- signIn -->
+                    <div class="col-12 col-lg-6" id="signInBox">
+                        <div class="row g-2">
+                            <div class="col-12">
+                                <p class="title02">Sign In</p>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" />
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" />
+                            </div>
+
+                            <div class="col-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" />
+                                    <label class="form-check-label fw-bold">Remember Me</label>
+                                </div>
+                            </div>
+
+                            <div class="col-6 text-end sig12">
+                                <a href="#" class="link-primary fw-bold">Forgot Password?</a>
+                            </div>
+
+                            <div class="col-12 col-lg-6 d-grid">
+                                <button class="btn btn-primary">Sign In</button>
+                            </div>
+                            <div class="col-12 col-lg-6 d-grid">
+                                <button class="btn btn-danger" onclick="changeView();">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
