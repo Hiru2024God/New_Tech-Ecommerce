@@ -16,12 +16,12 @@ This is an E-Commerce web application designed to simulate a real-world online s
                 4. User Sign In and Sign Up
                 5. Invoice
 
-🛠️ Built With :-    HTML5 | CSS 
+🛠️ Built With :-          HTML5 | CSS 
 
 📷 Screenshots
 
 👤 User
- ![Image Alt](https://github.com/Hiru2024God/New_Tech-Ecommerce/blob/b92c9d576b777ad6ed1e8ebb3c7f0bcd204b5333/NewTech_1.PNG)
+ ![Image Alt](https://github.com/Hiru2024God/New_Tech-Ecommerce/blob/9ea6246fafb41088a0c49377667132d9477f0397/NewTech_2.PNG)
 
 👤 Admin
  ![Image Alt](https://github.com/Hiru2024God/New_Tech-Ecommerce/blob/b92c9d576b777ad6ed1e8ebb3c7f0bcd204b5333/NewTech_1.PNG)
