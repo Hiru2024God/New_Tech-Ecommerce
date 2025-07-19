@@ -20,6 +20,7 @@ This is an E-Commerce web application designed to simulate a real-world online s
 
           1. HTML5 
           2. CSS 
+          3. JavaScript
 
 📷 Screenshots
 
