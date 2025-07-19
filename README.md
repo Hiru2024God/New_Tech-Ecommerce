@@ -16,7 +16,10 @@ This is an E-Commerce web application designed to simulate a real-world online s
                 4. User Sign In and Sign Up
                 5. Invoice
 
-🛠️ Built With :-          HTML5 | CSS 
+🛠️ Built With :-
+
+          1. HTML5 
+          2. CSS 
 
 📷 Screenshots
 
